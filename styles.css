@@ -32,3 +32,11 @@ body{
 .card img{
     width: 50%;
 }
+.about{
+    display: flex;
+    justify-content: center;
+    padding: 15% 15%;
+}
+.about ul li {
+    padding: 5%;
+}
