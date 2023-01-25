@@ -36,7 +36,27 @@ body{
     display: flex;
     justify-content: center;
     padding: 15% 15%;
+    width: 100%;
 }
-.about ul li {
-    padding: 5%;
+.about .content{
+   width: 100%
+}
+.lang-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.language{
+    max-width: 100px;
+    width: 100%;
+    background-color: #F7F7F9;
+    padding: 12px 0 12px 12px;
+    border-radius: 10px;
+}
+.language img{
+    width: 48px;
+}
+.lang{
+    padding-top: 10%;
+    padding-bottom: 2%;
 }
