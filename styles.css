@@ -60,3 +60,20 @@ body{
     padding-top: 10%;
     padding-bottom: 2%;
 }
+.contact-me{
+    padding: 15% 15%;
+    background-color: #6070FF;
+    background-image: url('images/contact\ form\ background\ shapes.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border-top-left-radius:15%;
+   box-shadow: 0 0 60px #E5E5E5;
+}
+.form{
+    width: 447px !important;
+    margin-bottom: 12px;
+}
