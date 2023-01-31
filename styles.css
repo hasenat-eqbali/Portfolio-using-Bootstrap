@@ -77,3 +77,20 @@ body{
     width: 447px !important;
     margin-bottom: 12px;
 }
+.icon{
+    display: none !important;
+}
+
+@media (max-width: 600px) {
+    #nav-icon{
+        display: none;
+
+    }
+    .main-content{
+        padding: 20% 0 !important;
+    }
+    .icon{
+        display: flex !important;
+        width: 20px;
+    }
+}
